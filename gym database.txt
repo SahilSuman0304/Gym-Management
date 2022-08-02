@@ -1,0 +1,5 @@
+create database gymManagement;
+use gymManagement;
+create table adminlogin(id int not null primary key auto_increment,username varchar(50),password varchar(50));
+create table TMember(MemberId int not null primary key auto_increment,Name varchar(50),Surname varchar(50),Contact varchar(50),Address varchar(1000),Email varchar(50),Gender varchar(50),Age varchar(50),GymTime varchar(50),AdmissionFee varchar(50),RegisteredDate varchar(50));
+create table MemberFee(MemberId int not null,FromDate varchar(50),ToDate varchar(50),FeePaid varchar(50),Date varchar(50),foreign key(MemberId) references TMember(MemberId));

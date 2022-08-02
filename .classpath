@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Admin Ism/Desktop/main for jframe/itextpdf-5.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Admin Ism/Desktop/main for jframe/mysql-connector-java-8.0.19.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Admin Ism/Desktop/main for jframe/rs2xml.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
